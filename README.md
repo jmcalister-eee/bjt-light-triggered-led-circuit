@@ -6,7 +6,7 @@
 
 An LED that turns on when my phone's screen lights up, built from one NPN transistor, a photoresistor, and three resistors. No microcontroller and no code. When the screen turns on, the photoresistor (LDR) picks up the light, a voltage divider drives a PN2222 into saturation, and a white LED comes on. With the screen on, about 5.5 mA goes through the LED. With the screen off, the transistor circuit itself only draws about 5 µA (the breadboard power module draws a lot more than that on its own).
 
-I have to be up before sunrise for AFROTC PT. My [first alarm](https://github.com/jmcalister-eee/light-triggered-arduino-lamp-alarm) used an Arduino to read a photoresistor and switch a lamp through a relay. It works, but an Arduino is a lot of hardware for "turn on when it gets bright." So for my DC Circuit Analysis final, I tried doing the light-sensing part with a single transistor and resistor values worked out by hand. The LED is a small-scale stand-in for the lamp.
+I have to be up before sunrise for AFROTC PT. My [first alarm](https://github.com/jmcalister-eee/light-triggered-arduino-lamp-alarm) used an Arduino to read a photoresistor and switch a lamp through a relay. It works, but an Arduino is a lot of hardware for "turn on when it gets bright." So, I tried doing the light-sensing part with a single transistor and resistor values worked out by hand. The LED is a small-scale stand-in for the lamp.
 
 <p align="center">
   <img src="docs/images/final_circuit_with_case/finished_with_case_1.jpg" alt="Finished circuit on a breadboard sitting on its blue 3D-printed enclosure, with the enclosure's base piece in front" width="600">
